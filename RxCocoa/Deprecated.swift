@@ -219,12 +219,15 @@ extension ObservableType {
             fatalError()
         }
     }
+<<<<<<< HEAD
     extension UIWebView {
         @available(*, unavailable, message: "createRxDelegateProxy is now unavailable, check DelegateProxyFactory")
         public func createRxDelegateProxy() -> RxWebViewDelegateProxy {
             fatalError()
         }
     }
+=======
+>>>>>>> 359f3778... Removed support to UIWebView
 #endif
 
 #if os(macOS)
